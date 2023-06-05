@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 297098016}
-  m_IndirectSpecularColor: {r: 0.21143538, g: 0.112969175, b: 0.099511966, a: 1}
+  m_IndirectSpecularColor: {r: 0.21143565, g: 0.11296945, b: 0.09951228, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,73 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &9904380
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 2
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 24.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073059, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_Name
-      value: IglooManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 934248280987073059, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1111608554900499595, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
-      propertyPath: cameraPrefab
-      value: 
-      objectReference: {fileID: 123561328}
-    m_RemovedComponents: []
-    m_AddedGameObjects: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
 --- !u!1 &123561328
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +265,7 @@ Transform:
   - {fileID: 1772823078}
   - {fileID: 297098017}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &297098015
 GameObject:
@@ -503,7 +436,7 @@ Transform:
   - {fileID: 339624733}
   - {fileID: 869901440}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &539900022
 LightingSettings:
@@ -5562,7 +5495,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1328898111
 MonoBehaviour:
@@ -5915,5 +5848,5 @@ Transform:
   - {fileID: 1639179535}
   - {fileID: 715935498}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
