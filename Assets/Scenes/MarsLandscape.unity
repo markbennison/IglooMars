@@ -518,6 +518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IglooManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1111608554900499595, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
+      propertyPath: spoutResources
+      value: 
+      objectReference: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 934248280987073058, guid: 7400535bcb7bd46409fc07bf0c901c3d, type: 3}
